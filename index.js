@@ -7,7 +7,7 @@ const rl = readline.createInterface({
     output: process.stdout
   });
   
-const apiKey = 'bc75d3e74f0d58448c510e6a1d29e6a3';
+const apiKey = 'ef0b0973b783e0614ac87612ec04344b';
 rl.question('Digite o nome da cidade: ', (city) => {
  
   const geoApiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`;
